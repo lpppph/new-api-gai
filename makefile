@@ -22,7 +22,7 @@ start-backend:
 
 dev-api:
 	@echo "Starting backend services (docker)..."
-	@docker compose -f docker-compose.dev.yml up -d
+	@docker compose -f docker-compose.dev.yml up -d --build
 
 dev-web:
 	@echo "Starting frontend dev server..."
