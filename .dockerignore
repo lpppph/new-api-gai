@@ -7,5 +7,6 @@ Makefile
 docs
 .eslintcache
 .gocache
-/web/node_modules
+web/default/dist
+web/classic/dist
 !THIRD-PARTY-LICENSES.md
